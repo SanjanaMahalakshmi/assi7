@@ -1,0 +1,252 @@
+
+
+
+.face{
+    height: 150px;
+    width: 200px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.mouth{
+    height: 40px;
+    width: 70px;
+    border-radius: 25px 25px 50px 50px;
+    background-color: black;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 65px;
+
+
+}
+.eye1{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    background-color: black;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.eye2{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    background-color: black;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+ 
+.sq{
+    height: 250px;
+    width: 200px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px; 
+}
+.hand1{
+    height: 125px;
+    width: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 540px; 
+}
+.hand2{
+    height: 125px;
+    width: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 810px; 
+
+}
+.leg1{
+    height: 125px;
+    width: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 725px; 
+
+}
+.leg2{
+    height: 125px;
+    width: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 625px;  
+}
+.face{
+    
+transform: rotate(15deg);
+    animation: moveface 5s infinite;
+} 
+ @keyframes moveface{
+    0%{
+       transform: rotate(15deg);
+    }
+    25%{
+       transform: rotate(-15deg);
+    }
+    50%{
+       transform: rotate(15deg);
+
+    }
+    75%{
+        transform: rotate(-15deg);
+    
+    } 
+    100%{
+        transform: rotate(15deg);
+    }
+}
+.sq{
+    transform: rotate(15deg);
+    animation: movesq 5s infinite;
+    
+} 
+@keyframes movesq{
+    0%{
+       transform: rotate(15deg);
+    }
+    25%{
+       transform: rotate(-15deg);
+    }
+    50%{
+       transform: rotate(15deg);
+
+    }
+    75%{
+        transform: rotate(-15deg);
+    
+    } 
+    100%{
+        transform: rotate(15deg);
+    }
+}
+
+
+
+
+    
+.hand1{
+   
+
+    animation: movehand1 5s infinite;
+} 
+ @keyframes movehand1{
+    0%{
+        transform: rotate(45deg);
+        transform-origin: top ;
+    }
+    25%{
+        transform: rotate(-45deg);
+        transform-origin: top ;
+    }
+    50%{
+        transform: rotate(45deg);
+        transform-origin: top ;
+    }
+    75%{
+        transform: rotate(-45deg);
+        transform-origin: top ;
+    
+    } 
+    100%{
+        transform: rotate(45deg);
+        transform-origin: top center;
+    }
+ 
+}
+.hand2{
+
+    transform: rotate(15deg);
+
+    animation: movehand2 5s infinite;
+} 
+ @keyframes movehand2{
+    0%{
+        transform: rotate(45deg);
+    }
+    25%{
+        transform: rotate(-45deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    
+    } 
+    100%{
+        transform: rotate(45deg);
+    }
+ 
+}
+.leg1{
+    transform: rotate( 15deg);
+
+    animation: moveleg1 3s infinite;
+} 
+ @keyframes moveleg1{
+    0%{
+        transform: rotate(-80deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    75%{
+        transform: rotate(45deg);
+    
+    } 
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+ .leg2{
+    transform: rotate(15deg);
+
+    animation: moveface 3s infinite;
+} 
+ @keyframes moveleg2{
+    0%{
+        transform: rotate(-45deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    75%{
+        transform: rotate(45deg);
+    
+    } 
+    100%{
+        transform: rotate(45deg);
+    }
+}
+.body{
+    background-color: aqua;
+}
+
+
+
+
+
+
